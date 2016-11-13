@@ -16,7 +16,7 @@ echo 'VirtualAddrNetworkIPv4 10.192.0.0/10' >>/etc/tor/torrc && \
 echo 'DNSPort 9053' >>/etc/tor/torrc && \
 echo 'SocksPort 0.0.0.0:9050 IsolateDestAddr' >>/etc/tor/torrc && \
 echo 'TransPort 9040' >>/etc/tor/torrc && \
-echo 'ExcludeNodes whistlersmother' >>/etc/tor/torrc && \'
+echo 'ExcludeNodes whistlersmother' >>/etc/tor/torrc && \
 mkdir -p /etc/tor/run && \
 chown -Rh debian-tor. /var/lib/tor /etc/tor/run && \
 chmod 0750 /etc/tor/run
